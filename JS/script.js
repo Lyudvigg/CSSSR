@@ -98,8 +98,15 @@ document.addEventListener('mousemove', function(event) {
             thumbSlider.style.left = sliderMenuSecond + 'px';
         } else if (thumbLeft < 385) {
             thumbSlider.style.left = sliderMenuThird + 'px';
+        } else if (thumbLeft < 585) {
+          thumbSlider.style.left = sliderMenuThird + 'px';
         } else {
             thumbSlider.style.left = 'calc(100% - 4px)';
         }
     }
 }, true);
+
+flatpickr("#datepicker", {
+  dateFormat: "d.m.Y"
+});
+

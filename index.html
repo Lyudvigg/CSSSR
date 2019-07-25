@@ -9,9 +9,11 @@
             type="image/png">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700"
             rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+        <link rel="stylesheet" type="text/css"
+            href="https://npmcdn.com/flatpickr/dist/ie.css">
         <link rel="stylesheet" href="./css/main.css">
-        <!-- Script -->
-        <script src="JS/script.js" defer></script>
     </head>
     <body>
         <div class="container">
@@ -284,12 +286,16 @@
                         <div class="completion-date">
                             <h3>Дата заполнения</h3>
                             <div class="data">
-                                <span>01.01.2016</span>
+                                <input type="text"
+                                    id="datepicker" value="01.01.2016" />
                             </div>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
+        <!-- Script -->
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+        <script src="JS/script.js"></script>
     </body>
 </html>

@@ -752,16 +752,20 @@ header {
     color: #2f1b15;
   }
 
-  span {
-    font-family: "Courier-regular";
-    font-size: 30px;
-    color: #231f20;
+  .data {
     position: relative;
-    padding-bottom: 10px;
-    width: 206px;
-    text-align: center;
-    display: block;
-
+    input {
+      font-family: "Courier-regular";
+      font-size: 30px;
+      color: #231f20;
+      position: relative;
+      padding-bottom: 10px;
+      width: 206px;
+      text-align: center;
+      display: block;
+      background: transparent;
+      border: none;
+    }
     &::after {
       content: "";
       width: 100%;
