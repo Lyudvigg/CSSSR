@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "Courier-regular";
-  src: url("../assets/font/courier.ttf"); }
-
 html,
 body,
 div,
@@ -244,7 +240,7 @@ header {
     font-size: 15px;
     padding-left: 18px; }
   .fio__inp .about-you--inp {
-    font-family: "Courier-regular";
+    font-family: 'Courier', arial;
     font-size: 30px;
     color: #231f20;
     background: transparent;
@@ -597,7 +593,7 @@ header {
   .completion-date .data {
     position: relative; }
     .completion-date .data input {
-      font-family: "Courier-regular";
+      font-family: 'Courier', arial;
       font-size: 30px;
       color: #231f20;
       position: relative;

@@ -58,7 +58,6 @@ const sliderItem = document.querySelectorAll(".slider-menu-item-all");
 for (i = 0; i < sliderItem.length - 1; i++) {
   sliderItem[i].addEventListener('click', function() {
     let offsetLeftVal = this.offsetLeft;
-    console.log(offsetLeftVal)
     thumbElem.style.left = offsetLeftVal + 'px';
   });
 }
