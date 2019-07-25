@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CSSSR</title>
+        <link rel="icon" href="./assets/img/Favicon/favicon.png"
+            type="image/png">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
+        <!-- Script -->
+        <script src="JS/script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="main--block">
+                <!-- Header -->
+                <header>
+                    <div class="content-container">
+                        <nav>
+                            <a href="#" class="logo">
+                                <img src="./assets/img/Header/Logo.png"
+                                    alt="Logo">
+                            </a>
+                            <div class="secret">
+                                <img src="./assets/img/Header/secret.png"
+                                    alt="Img">
+                            </div>
+                        </nav>
+                        <div class="header-title">
+                            <a href="#">
+                                <img src="./assets/img/Header/a-business.png"
+                                    alt="Img">
+                            </a>
+                        </div>
+                    </div>
+                </header>
+                <!-- About you form -->
+                <form class="about-you">
+                    <div class="content-container">
+                        <div class="fio">
+                            <label class="fio__row">
+                                <span>Полное ФИО</span>
+                                <div class="fio__inp">
+                                    <input class="about-you--inp" type="text"
+                                        placeholder="Иванов Иван Иванович">
+                                </div>
+                            </label>
+                            <label class="fio__row">
+                                <span>Год рождения</span>
+                                <div class="fio__inp">
+                                    <input class="about-you--inp" id="born_data"
+                                        type="number"
+                                        placeholder="1990">
+                                </div>
+                            </label>
+                            <label class="fio__row">
+                                <span>Место жительства</span>
+                                <div class="fio__inp">
+                                    <input class="about-you--inp" type="text"
+                                        placeholder="г. Иваново,
+                                        Россия">
+                                </div>
+                            </label>
+                            <label class="fio__row">
+                                <span>Скайп</span>
+                                <div class="fio__inp">
+                                    <input class="about-you--inp" type="text"
+                                        placeholder="ivanov">
+                                </div>
+                            </label>
+                            <label class="fio__row">
+                                <span>Почта</span>
+                                <div class="fio__inp">
+                                    <input class="about-you--inp" type="email"
+                                        id="email_data"
+                                        placeholder="ivanov@gmail.com">
+                                    <span class="invalid-email d_none">please
+                                        enter valid email address</span>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="about-you-text">
+                            <h2 class="title">Расскажите о себе чекбоксами</h2>
+                            <p class="about-you-paragraph">Отметьте чекбоксами
+                                пункты, которые
+                                соответствуют вашим скиллам. Кстати,
+                                отсутствие опыта не означает, что у вас
+                                меньше шансов стать одним из наших
+                                товарищей. Это означает, что вы будете
+                                получать те задачи, с которыми гарантировано
+                                будете справляться.</p>
+                        </div>
+                        <div class="checkbox--block">
+                            <div class="checkbox--item__block">
+                                <label class="checkbox--row">
+                                    БЭМ/OOCSS
+                                    <input type="checkbox" checked>
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    Pug (Jade)
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    Stylus/LESS/SASS
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    Работаю с SVG
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    Верстаю семантично
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    Accessibility (A11Y)
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    ES2015/ES2016
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="checkbox--item__block">
+                                <label class="checkbox--row">
+                                    Gulp/GRUNT
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    Webpack
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    Дружу с WebGL
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    jQuery
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    Знаю/изучаю Angular
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    Знаю/изучаю React
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    Знаю/изучаю Node.js
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="checkbox--item__block">
+                                <label class="checkbox--row">
+                                    Использую Git
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    С глазомером всё ок
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    Читаю <a href="http://blog.csssr.ru/"
+                                        target="_blank" class="docs--link">blog.csssr.ru</a>
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    Я ленивый(-ая)
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="checkbox--row">
+                                    У меня хороший английский
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <!--RANGE INPUT-->
+                        <div class="level-javascript">
+                            <h2 class="title">Уровень владения JavaScript</h2>
+                            <div class="slider-block">
+                                <span class="thumb" id="thumb"></span>
+                                <input type="range" class="inp--slider" step="1"
+                                    value="1" min="1"
+                                    max="4">
+                                <ul class="slider-menu">
+                                    <li class="slider-menu-first
+                                        slider-menu-item-all">Не владею</li>
+                                    <li class="slider-menu-item
+                                        slider-menu-second
+                                        slider-menu-item-all">Использую готовые
+                                        решения</li>
+                                    <li class="slider-menu-item
+                                        slider-menu-third slider-menu-item-all">Использую
+                                        готовые решения и умею их переделывать</li>
+                                    <li class="slider-menu-fourth
+                                        slider-menu-item-all">Пишу сложный JS с
+                                        нуля</li>
+                                </ul>
+                            </div>
+                            <div class="title about-you-title">Расскажите о себе
+                                словами</div>
+                            <p class="about-you-paragraph">Напишите пару
+                                предложений, чем вас привлекла наша вакансия и
+                                чего вы ожидаете от работы в CSSSR. Кстати,
+                                будет здорово, если при нехватке места для
+                                текста строки будут добавляться автоматически.</p>
+                            <div class="inp-block">
+                                <div class="fio__inp about-you-inp-block"><input
+                                        type="text"
+                                        placeholder="Ну-ууу-уу..."
+                                        class="about-you--inp"></div>
+                                <div class="fio__inp about-you-inp-block"><input
+                                        type="text"
+                                        placeholder="Ээээ..."
+                                        class="about-you--inp"></div>
+                                <div class="fio__inp about-you-inp-block"><input
+                                        type="text"
+                                        class="about-you--inp"></div>
+                            </div>
+                        </div>
+                        <div class="future--plans">
+                            <div class="title">Какие у вас планы на будущее?</div>
+                            <p class="about-you-paragraph">Этот ответ ни на что
+                                не повлияет. Не беда, если в будущем ваши планы
+                                поменяются.</p>
+                            <ul class="radio-block">
+                                <li>
+                                    <label class="radio-row">
+                                        Верстать
+                                        <input type="radio" name="radio"
+                                            value="Верстать" checked="checked">
+                                        <span class="checkmark-radio"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-row">
+                                        Прокачиваться в JS
+                                        <input type="radio" name="radio"
+                                            value="Прокачиваться в JS">
+                                        <span class="checkmark-radio"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-row">
+                                        Менеджерство
+                                        <input type="radio" name="radio"
+                                            value="Менеджерство">
+                                        <span class="checkmark-radio"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-row">
+                                        Другое
+                                        <input type="radio" name="radio"
+                                            value="Другое">
+                                        <span class="checkmark-radio"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="completion-date">
+                            <h3>Дата заполнения</h3>
+                            <div class="data">
+                                <span>01.01.2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
